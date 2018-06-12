@@ -1,0 +1,85 @@
+html {
+}
+
+body {
+}
+
+.container {
+    height: 100px;
+    line-height: 100px;
+    margin-top: 50px;
+}
+
+.row1 {
+    font-size: 3em;
+    height: inherit;
+    background-color: none;
+    line-height: inherit;
+    vertical-align: middle;
+}
+
+.row2 {
+    margin-top: 350px;
+    font-size: 3em;
+    height: inherit;
+    background-color: none;
+    line-height: inherit;
+    vertical-align: middle;
+    font-size: 10em;
+    text-align: center;
+    visibility: hidden;
+}
+
+.btn {
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    font-size: 3em;
+}
+
+.name {
+    border: solid rgb(50, 50, 50);
+    border-width: 1px 1px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.name_btn {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    color: white;
+}
+
+.name_text {
+    color: rgb(50, 50, 50);
+}
+
+#timer {
+    color: white;
+    position: fixed;
+    margin-left: 34.25%;
+    margin-top: 150px;
+    font-size: 10em;
+    background-color: rgb(50, 50, 50);
+    width: 31.5%;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    visibility: visible;
+}
+
+#game_text {
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 150px;
+    font-size: 10em;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: rgb(50, 50, 50);
+    font-family: Helvetica, Arial, sans-serif;
+    opacity: 0;
+}
