@@ -31,9 +31,9 @@ body {
 }
 
 .btn {
-    height: 100px;
+    height: 90px;
     background-color: rgb(50, 50, 50);
-    font-size: 3em;
+    font-size: 1em!important;
 }
 
 .name {
